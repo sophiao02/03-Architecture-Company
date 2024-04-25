@@ -1,0 +1,14 @@
+/* NAVIGATION STUFF GOES HERE  */
+nav {
+  ul {
+    display: flex;
+    justify-content: left;
+  } // end ul
+  ul li a {
+    border: none;
+  }
+  ul li.active a {
+    background: none;
+    color: $primaryColor;
+  }
+} // end nav
